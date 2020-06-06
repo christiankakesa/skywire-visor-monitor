@@ -1,0 +1,30 @@
+version: 1.0
+shards:
+  bisect:
+    github: spider-gazelle/bisect
+    version: 1.2.0
+
+  cron_parser:
+    github: kostya/cron_parser
+    version: 0.3.0
+
+  future:
+    github: crystal-community/future.cr
+    version: 0.1.0
+
+  pool:
+    github: ysbaddaden/pool
+    version: 0.2.3
+
+  rethinkdb:
+    github: kingsleyh/crystal-rethinkdb
+    version: 0.1.11
+
+  retriable:
+    github: sija/retriable.cr
+    version: 0.2.2
+
+  tasker:
+    github: spider-gazelle/tasker
+    version: 1.3.0
+

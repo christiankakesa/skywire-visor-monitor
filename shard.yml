@@ -1,0 +1,25 @@
+name: skywire-visor-monitor
+version: 0.1.0
+
+authors:
+  - Christian Kakesa <christian.kakesa@gmail.com>
+
+targets:
+  skywire-visor-monitor:
+    main: src/skywire-visor-monitor.cr
+
+dependencies:
+  pool:
+    github: ysbaddaden/pool
+  rethinkdb:
+    github: kingsleyh/crystal-rethinkdb
+  tasker:
+    github: spider-gazelle/tasker
+
+development_dependencies:
+  ameba:
+    github: veelenga/ameba
+
+crystal: 0.34.0
+
+license: MIT
